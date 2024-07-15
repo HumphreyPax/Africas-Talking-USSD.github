@@ -1,4 +1,4 @@
-name: Africa Talking Ussd Lambdas
+name: Africa Talking USSD Lambdas
 on: [push]
 
 jobs:
