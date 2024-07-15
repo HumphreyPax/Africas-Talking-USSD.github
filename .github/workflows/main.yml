@@ -15,3 +15,4 @@ jobs:
       - run: zip -j Africas-Talking-USSD-18790ae4-5e17-4217-acfb-e9572fe0c55c.zip ./Africas-Talking-USSD-18790ae4-5e17-4217-acfb-e9572fe0c55c/index.js
       - run: aws lambda update-function-code --function-name=lambda1 --zip-file=fileb://Africas-Talking-USSD-18790ae4-5e17-4217-acfb-e9572fe0c55c.zip
 
+
