@@ -13,7 +13,9 @@ const provinces = [
             "Limpopo", "Kzn", "Eastern Cape",
             "Northern Cape", "Western Cape", "Gauteng",
             "Free state", "North west", "Mpumalanga"
-        ];
+        ];git add .
+        git commit -m "message"
+        git push origin main
         
 var service;
 var communication;
