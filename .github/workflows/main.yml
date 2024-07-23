@@ -1,6 +1,7 @@
 name: Africa Talking USSD Lambdas
 on: [push]
 
+  
 jobs:
  lambda_demo:
     runs-on: ubuntu-latest
@@ -15,4 +16,8 @@ jobs:
       - run: zip -j Africas-Talking-USSD-18790ae4-5e17-4217-acfb-e9572fe0c55c.zip ./index.js
       - run: aws lambda update-function-code --function-name=lambda1 --zip-file=fileb://Africas-Talking-USSD-18790ae4-5e17-4217-acfb-e9572fe0c55c.zip
 
-Testing approvals rejoice
+ deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: Approval
+    
