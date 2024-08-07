@@ -65,7 +65,7 @@ exports.handler = async (event, context, callback) => {
             }
             else {
                 // New session
-                menu.con('You are not Welcome to the GEPF NPS survey, where your voice matters. Please help us serve you better.' +
+                menu.con(' Welcome to the GEPF NPS survey, where your voice matters. Please help us serve you better.' +
                     '\n--------------' +
                     '\n1. Continue to NPS Survey' +
                     '\n0. Exit');
