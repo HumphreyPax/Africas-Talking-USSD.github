@@ -11,7 +11,7 @@ AWS.config.update({ region: 'us-east-1' });
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 const tableName = 'UssdSessions';
 const provinces = [
-            "Humphrey", "Kzn", "Eastern Cape",
+            "Limpopo", "Kzn", "Eastern Cape",
             "Northern Cape", "Western Cape", "Gauteng",
             "Free state", "North west", "Mpumalanga"
         ];
@@ -66,7 +66,7 @@ exports.handler = async (event, context, callback) => {
             }
             else {
                 // New session
-                menu.con('you are not Welcome to the GEPF NPS survey, where your voice matters. Please help us serve you better.' +
+                menu.con('y Welcome to the GEPF NPS survey, where your voice matters. Please help us serve you better.' +
                     '\n--------------' +
                     '\n1. Continue to NPS Survey' +
                     '\n0. Exit');
