@@ -14,10 +14,6 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_PASS }}
-<<<<<<< HEAD
-          
-=======
->>>>>>> 46c3af3e61489308c16583cb9eb79b5416bf3873
           aws-region: us-east-1
 
       - name: Zip Lambda function

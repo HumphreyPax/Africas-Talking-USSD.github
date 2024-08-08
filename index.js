@@ -168,7 +168,7 @@ menu.state('Question 3', {
 
 menu.state('Question 4', {
     run: async () => {
-        menu.con('Please dont describe your experience with GPAA regarding your GEPF query?' + ' \n' + '1. Exit');
+        menu.con('Please dont  describe your experience with GPAA regarding your GEPF query?' + ' \n' + '1. Exit');
         turnaroundTime = menu.val;
         await saveSession(sessionId, { state: 'Comment', turnaroundTime: menu.val });
     },
