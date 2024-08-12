@@ -11,7 +11,7 @@ AWS.config.update({ region: 'us-east-1' });
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 const tableName = 'UssdSessions';
 const provinces = [
-            "hum", "Kzn", "Eastern Cape",
+            "Limpopo", "Kzn", "Eastern Cape",
             "Northern Cape", "Western Cape", "Gauteng",
             "Free state", "North west", "Mpumalanga"
         ];
